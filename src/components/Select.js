@@ -2,8 +2,8 @@ export default function Select() {
   return (
     <div className="sel">
       <p class="tit">분류 보기</p>
-      <img className="lup" src="./images/list_up_btn.png" />
-      <div className="sel2">
+      <img className="lup" src="./images/list_down_btn.png"/>
+      {/*<div className="sel2">
         <dl>
           <div className="box">
             <dt className="dt1">
@@ -74,7 +74,7 @@ export default function Select() {
             </div>
           </dd>
         </dl>
-      </div>
+      </div>*/}
     </div>
   );
 }

@@ -57,6 +57,7 @@ div {
   position: relative;
   border-radius: 5px;
   margin-bottom: 40px;
+  margin: 10px;
 }
 .sel2 {
   border-top: 1px solid #ddd;
@@ -80,8 +81,9 @@ div {
   display: flex;
 }
 .dt1 {
+  margin-left: 20px;
   display: block;
-  width: 200px;
+  width: 312px;
   height: 35px;
   line-height: 35px;
   border-radius: 3px;
@@ -104,7 +106,7 @@ div {
 }
 .dt2 {
   display: block;
-  width: 200px;
+  width: 312px;
   height: 35px;
   line-height: 35px;
   border-radius: 3px;
@@ -152,4 +154,66 @@ ul {
 }
 li {
   list-style: none;
+}
+input{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  vertical-align: top;
+}
+.bu{
+  margin-left: 4%;
+  width: 90%;
+  padding-right: 10px;
+  height: 38px;
+  background: url(//image.istarbucks.co.kr/common/img/util/sbox_arrow_down.png) 96% center no-repeat #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  text-indent: 10px;
+  text-align: left;
+  font-size: 16px;
+  color: #444;
+  overflow: hidden;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.in_span{
+  position: absolute;
+  left: 35px;
+  top: 280px;
+  font-size: 14px;
+  color: #444;
+}
+.card-list{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+.card{
+  display: flex;
+}
+.card-image{
+  width: 200px;
+  height: 200px;
+}
+.name{
+  flex-wrap: nowrap;
+  font-size: 14px;
+  color: #444;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+dd {
+  display: block;
+  margin-inline-start: 40px;
 }
