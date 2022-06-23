@@ -219,8 +219,8 @@ dl > dt > a {
   margin-left: 15px;
 }
 .sumIcon{
-  width: 60px;
-  height: 50px;
+  margin-top: 0;
+  height: 40px;
 }
 .summary {
   display: block;
@@ -264,4 +264,23 @@ dl > dt > a {
 p {
   display: block;
   margin-inline-start: 40px;
+}
+.dtp {
+  left: 0;
+  width: 48%;
+  cursor: pointer;
+  background: #666;
+}
+a.selected {
+  background: #666 9px center no-repeat;
+  color: #fff;
+}
+.dtp2 {
+  left: 50%;
+  width: 48%;
+  cursor: pointer;
+}
+.butt {
+  display: flex;
+  gap: 1%;
 }
