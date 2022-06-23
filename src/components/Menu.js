@@ -18,11 +18,19 @@ export default function Menu() {
           <span className="in_span">상세분류</span>
         </p>
       </div>
-      <dl>
-
-      </dl>
+      <div>
+        <dl>
+          <dt>
+              <a>콜드 브루 커피</a>
+              <img className="sumIcon" src="./images/logo_decaf.png" />
+              <p className="summary">
+                디카페인 에스프레소 샷 추가 가능 (일부 음료 제외)
+              </p>
+            </dt>
+        </dl>
+      </div>
       <div className="card-list">
-        <section className="cards-list">{cards}</section>
+        {cards}
       </div>
     </div>
   );

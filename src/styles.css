@@ -162,7 +162,7 @@ input{
   vertical-align: top;
 }
 .bu{
-  margin-left: 4%;
+  margin-left: 1%;
   width: 90%;
   padding-right: 10px;
   height: 38px;
@@ -184,23 +184,69 @@ p {
 }
 .in_span{
   position: absolute;
-  left: 35px;
+  left: 10%;
   top: 280px;
   font-size: 14px;
   color: #444;
 }
+dt {
+  display: block;
+  padding: 20px;
+  background: #f4f4f2;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 20px;
+}
+dl > dt > a {
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: left;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  background: transparent;
+  cursor: pointer;
+}
+.decaf {
+  display: block;
+  float: left;
+  width: 45px;
+  height: 18px;
+  margin-left: 15px;
+}
+.sumIcon{
+  width: 60px;
+  height: 50px;
+}
+.summary {
+  display: block;
+  float: left;
+  line-height: 18px;
+  margin-left: 5px;
+  font-size: 13px;
+  color: #444444;
+  letter-spacing: -1px;
+}
 .card-list{
   display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
-  overflow-x: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5%;
+  justify-content: space-around;
 }
 .card{
+  flex: 0 0 auto;
   display: flex;
+  flex-direction: column;
+  position: relative;
 }
 .card-image{
   width: 200px;
   height: 200px;
+  flex-wrap: nowrap;
 }
 .name{
   flex-wrap: nowrap;
@@ -212,8 +258,9 @@ p {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  margin: 5%;
 }
-dd {
+p {
   display: block;
   margin-inline-start: 40px;
 }

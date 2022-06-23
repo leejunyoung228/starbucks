@@ -2,8 +2,8 @@ export default function Card(props){
     return(
         <li>
             <div className="card">
-                <img src={props.url} className="card-image"></img>
-                <dd className="name">{props.name}</dd>
+                <img src={props.url} className="card-image" />
+                <p className="name">{props.name}</p>
             </div>
         </li>
         
